@@ -3,7 +3,7 @@ A python script that scrapes Youtube links from a predefined website of choice.
 
 Instructions:
 
-install python if you havnt, https://www.python.org/downloads/
+install python if you haven't, https://www.python.org/downloads/
 
 install pip https://pypi.org/project/pip/
 
