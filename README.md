@@ -12,8 +12,6 @@ install the following packages using pip:
 pip install bs4
 pip install requests
 pip install urllib
-pip install collections
-pip install re
 ```
 if you have git installed you can clone the repo using:  
 git clone https://github.com/chunkingz/YoutubeLinks-Scraper.git
