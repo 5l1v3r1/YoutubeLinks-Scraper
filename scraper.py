@@ -8,10 +8,14 @@ import re
 '''
 A script to scrape youtube links from a predefined website of choice.
 '''
+ap = argparse.ArgumentParser()
+ap.add_argument("-w", "--website", required=True,
+	help="URL to crawl")
+args = vars(ap.parse_args())
 
 #funtion to extract youtube link from web pages
 urls=deque()
-urls.append('https://url_to_crawl')
+urls.append(args['website'])
 def process_urls(urls_to_process):
 
 	processed_urls = set()  # a set of urls that have already been crawled
