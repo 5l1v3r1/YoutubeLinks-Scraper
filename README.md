@@ -21,5 +21,5 @@ https://github.com/chunkingz/YoutubeLinks-Scraper/archive/master.zip
 
 run in cmd/terminal:
 ```
-python scraper.py
+python scraper.py -w http://url_to.crawl
 ```
